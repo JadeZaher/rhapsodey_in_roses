@@ -108,39 +108,6 @@ const Home: NextPage = () => {
           Package Tiers
         </h2>
         <div className="flex h-full flex-col items-stretch justify-start sm:flex-row ">
-          <div className=" relative mb-5 flex grow flex-col items-center  rounded-md bg-offWhite pt-8 sm:mr-10">
-            <div>
-              <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
-                Date — $250
-              </h2>
-              <p className="text-center">
-                <strong className="py-2">This package comes with:</strong>
-              </p>
-            </div>
-
-            <p className="px-[5%] pb-20 text-center text-base">
-              <br />
-              Local Restaurant Gift Card <br />
-              Aphrodisiac massage oil <br />
-              Rose Petals Basket <br />
-              Roses and Lavender
-              <br />
-              Candles <br />
-              Tea <br />
-            </p>
-            {/* <div className=" absolute right-2 bottom-5">
-              <CTAButton
-                text="Book Now"
-                link="services"
-                color="offBlack"
-                styles={{
-                  padding: ".75rem",
-                  alignSelf: "flex-end",
-                  marginTop: "20px",
-                }}
-              />
-            </div> */}
-          </div>
           <div className=" relative mb-5 flex  grow flex-col items-center  rounded-md bg-offWhite pt-8 sm:mr-10">
             <div>
               <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
@@ -152,18 +119,19 @@ const Home: NextPage = () => {
             </div>
             <p className=" px-[5%] pb-20 text-center text-base leading-10">
               <br />
-              Local Restaurant Gift Card <br />
-              Small Cheese Crackers and Fruit Tray <br />
+              Local $50 Restaurant Gift Card <br />
               Aphrodisiac Massage Oil <br />
               Women’s Arousal Cream <br />
+              Artisinal Herbal Tea Blend <br />
               Champagne Glasses <br />
               Champagne <br />
               Roses and Lavender <br />
               Rose Petals <br />
               Custom Poetry <br />
-              Candles <br />
-              Basket <br />
-              Tea <br />
+              Unique Basket <br />
+              Craft Honey <br />
+              Craft Soap <br />
+              Candle <br />
             </p>
             {/* <div className=" absolute right-2 bottom-5">
               <CTAButton
@@ -190,9 +158,9 @@ const Home: NextPage = () => {
             <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
               <br />
               Local Restaurant $100 Gift Card <br />
-              Large Charcuterie Board <br />
               Crystals Wrapped As A Gift <br />
               Aphrodisiac Massage Oil <br />
+              Artisinal Herbal Tea Blend <br />
               Women’s Arousal Cream <br />
               Champagne Glasses <br />
               Champagne <br />
@@ -201,9 +169,10 @@ const Home: NextPage = () => {
               Custom Poetry <br />
               Wine Charms <br />
               Macaroons <br />
-              Candles <br />
-              Basket <br />
-              Tea <br />
+              Craft Honey <br />
+              Craft Soap <br />
+              Unique Basket <br />
+              Candle <br />
             </p>
             {/* <div className=" absolute right-2 bottom-5">
               <CTAButton
@@ -219,6 +188,36 @@ const Home: NextPage = () => {
             </div> */}
           </div>
         </div>
+      </div>
+      <div className=" relative mb-5 flex w-[80%] grow flex-col  items-center justify-between rounded-md bg-offWhite pt-8">
+        <div>
+          <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
+            Additional Services
+          </h2>
+          <p className="text-center">
+            <strong className="py-2">
+              Custom Set Up-Prices start at 50 an hour
+            </strong>
+          </p>
+        </div>
+        <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
+          <br />
+          Please be at the location or have someone that knows that I am coming.{" "}
+          <br /> I will set up your perfect night with your significant other.
+          I’m also available to travel. Let’s do a consultation.
+        </p>
+        {/* <div className=" absolute right-2 bottom-5">
+              <CTAButton
+                text="Book Now"
+                link="services"
+                color="offBlack"
+                styles={{
+                  padding: ".75rem",
+                  alignSelf: "flex-end",
+                  marginTop: "20px",
+                }}
+              />
+            </div> */}
       </div>
       {/* contact form */}
       <div className="flex w-[80%] flex-col">
