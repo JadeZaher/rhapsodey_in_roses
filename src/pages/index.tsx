@@ -291,7 +291,6 @@ const Home: NextPage = () => {
                   required
                   defaultValue="Select Your Option"
                 >
-                  <option>Date</option>
                   <option>Anniversary</option>
                   <option>Honeymoon</option>
                   <option>Other</option>
