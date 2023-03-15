@@ -189,7 +189,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className=" relative mb-5 flex w-[80%] grow flex-col  items-center justify-between rounded-md bg-offWhite pt-8">
+      <div className=" relative mb-5 flex w-[80%] grow flex-col  items-center rounded-md bg-offWhite py-6 px-7 ">
         <div>
           <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
             Additional Services
@@ -200,7 +200,7 @@ const Home: NextPage = () => {
             </strong>
           </p>
         </div>
-        <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
+        <p className="m-auto px-[5%]  text-center text-base leading-10">
           <br />
           Please be at the location or have someone that knows that I am coming.{" "}
           <br /> I will set up your perfect night with your significant other.
