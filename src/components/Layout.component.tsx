@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "./NavBar.component";
-import Backround from "../components/Background.component";
-import Bg2 from "../components/bg2.component";
+import Backround from "./Background.component";
+import Bg2 from "./bg2.component";
 
-const Layout = ({ children }) => {
+const Layout = ({ children }: { children: any }) => {
   return (
     <>
       <div

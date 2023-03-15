@@ -1,12 +1,11 @@
 import * as React from "react";
 
-const Background = (props) => (
+const Background = () => (
   <svg
     className=" absolute  left-[-10px] top-[-10px] z-0  w-[70%] scale-[-100%] md:w-[35%]"
     id="Layer_2"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 83.63 162.01"
-    {...props}
   >
     <defs>
       <style>{".cls-1{fill:#200e12}"}</style>

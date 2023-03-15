@@ -1,13 +1,12 @@
 import * as React from "react";
 
-const Bg2 = (props) => (
+const Bg2 = () => (
   <div className="w-[100vw] overflow-x-hidden">
     <svg
       className=" absolute right-0 top-[20%] z-0 w-[40%] md:w-[30%]"
       id="Layer_2"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 39.92 135.09"
-      {...props}
     >
       <defs>
         <style>{".cls-1{fill:#200e12}"}</style>
