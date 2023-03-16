@@ -2,6 +2,10 @@ import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Logo from "../assets/Logo.png";
+import Link from "next/link";
+import Partner1 from "../assets/OyasMarketLogo.png";
+import Partner2 from "../assets/RubyBloomLogo.png";
+import Partner3 from "../assets/VintiquesLogo.png";
 import Destinee from "../assets/destinee-image.jpg";
 
 // import CTAButton from "../components/CTAButton.component";
@@ -127,6 +131,7 @@ const Home: NextPage = () => {
               Champagne <br />
               Roses and Lavender <br />
               Rose Petals <br />
+              Location Setup <br />
               Custom Poetry <br />
               Unique Basket <br />
               Craft Honey <br />
@@ -166,6 +171,7 @@ const Home: NextPage = () => {
               Champagne <br />
               Roses and Lavender <br />
               Rose Petals <br />
+              Location Setup <br />
               Custom Poetry <br />
               Wine Charms <br />
               Macaroons <br />
@@ -189,36 +195,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className=" relative mb-5 flex w-[80%] grow flex-col  items-center rounded-md bg-offWhite py-6 px-7 ">
-        <div>
-          <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
-            Additional Services
-          </h2>
-          <p className="text-center">
-            <strong className="py-2">
-              Custom Set Up-Prices start at 50 an hour
-            </strong>
-          </p>
-        </div>
-        <p className="m-auto px-[5%]  text-center text-base leading-10">
-          <br />
-          Please be at the location or have someone that knows that I am coming.{" "}
-          <br /> I will set up your perfect night with your significant other.
-          I’m also available to travel. Let’s do a consultation.
-        </p>
-        {/* <div className=" absolute right-2 bottom-5">
-              <CTAButton
-                text="Book Now"
-                link="services"
-                color="offBlack"
-                styles={{
-                  padding: ".75rem",
-                  alignSelf: "flex-end",
-                  marginTop: "20px",
-                }}
-              />
-            </div> */}
-      </div>
+
       {/* contact form */}
       <div className="flex w-[80%] flex-col">
         <h2 className=" self-start py-3 text-2xl font-semibold text-offWhite">
@@ -319,6 +296,35 @@ const Home: NextPage = () => {
               </div>
             </div>
           </form>
+        </div>
+        {/* partners section */}
+        <div className="my-20  ">
+          <h2 className=" self-start py-3 text-2xl font-semibold text-offWhite">
+            My Partners
+          </h2>
+          <div className=" flex min-h-[30vmin] flex-col items-center justify-center rounded-md bg-offWhite p-2 md:flex-row">
+            <Link href={`https://oyascraft.com/`}>
+              <Image
+                className="m-4 max-h-[200px] max-w-[90%] rounded-md object-cover"
+                alt="Oyas Market"
+                src={Partner1}
+              />
+            </Link>
+            <Link href={`https://therubybloom.com/`}>
+              <Image
+                className="m-4 max-h-[200px] max-w-[90%] rounded-md object-cover"
+                alt="Ruby Bloom"
+                src={Partner2}
+              />
+            </Link>
+            <Link href={`https://www.facebook.com/Vintiquesdecor`}>
+              <Image
+                className="m-4 max-h-[200px] max-w-[90%] rounded-md object-cover"
+                alt="Vintiquesdecor"
+                src={Partner3}
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
