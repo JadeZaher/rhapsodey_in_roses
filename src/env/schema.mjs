@@ -26,5 +26,5 @@ export const clientSchema = z.object({
  */
 export const clientEnv = {
   // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
-  HERO_TOFU_VAR: process.env.HeroTofuForm
+  HERO_TOFU_VAR: process.env.HeroTofuForm,
 };
