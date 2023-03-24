@@ -7,6 +7,34 @@ import Partner1 from "../assets/OyasMarketLogo.png";
 import Partner2 from "../assets/RubyBloomLogo.png";
 import Partner3 from "../assets/VintiquesLogo.png";
 import Destinee from "../assets/destinee-image.jpg";
+import I1 from "../assets/gallery/1.jpg";
+import I2 from "../assets/gallery/2.jpg";
+import I3 from "../assets/gallery/3.jpg";
+import I4 from "../assets/gallery/4.jpg";
+import I6 from "../assets/gallery/6.jpg";
+import I7 from "../assets/gallery/7.jpg";
+import I8 from "../assets/gallery/8.jpg";
+import I9 from "../assets/gallery/9.jpg";
+import I10 from "../assets/gallery/10.jpg";
+import I11 from "../assets/gallery/11.jpg";
+import I12 from "../assets/gallery/12.jpg";
+import I13 from "../assets/gallery/13.jpg";
+import I14 from "../assets/gallery/14.jpg";
+import I15 from "../assets/gallery/15.jpg";
+import I16 from "../assets/gallery/16.jpg";
+import I17 from "../assets/gallery/17.jpg";
+import I18 from "../assets/gallery/18.jpg";
+import I19 from "../assets/gallery/19.jpg";
+import I20 from "../assets/gallery/20.jpg";
+import I21 from "../assets/gallery/21.jpg";
+import I22 from "../assets/gallery/22.jpg";
+import I23 from "../assets/gallery/23.jpg";
+import I24 from "../assets/gallery/24.jpg";
+import I25 from "../assets/gallery/25.jpg";
+import I26 from "../assets/gallery/26.jpg";
+import I27 from "../assets/gallery/27.jpg";
+
+import ImageCarousel from "../components/Carousel.component";
 
 // import CTAButton from "../components/CTAButton.component";
 
@@ -30,7 +58,7 @@ const Home: NextPage = () => {
               Roses In Rhapsody
             </h1>
             <h2 className=" py-5 font-sans text-xl font-extrabold text-white">
-              Luxury dating at its finest.
+              Make Date Night Easy
             </h2>
             {/* <CTAButton text="Contact" link="contact" styles={{}} /> */}
           </div>
@@ -55,7 +83,7 @@ const Home: NextPage = () => {
             src={Logo}
           />
           <h2 className="py-5 text-right font-sans text-xl text-white">
-            Luxury dating at its finest.
+            Make Date Night Easy
           </h2>
         </div>
       </div>
@@ -67,28 +95,29 @@ const Home: NextPage = () => {
         <div className="mb-10 flex items-center  justify-center rounded-md bg-offWhite sm:max-w-[80%] sm:rounded-2xl sm:rounded-tr-none sm:rounded-br-none">
           <div className="max-w-[80%] p-5">
             <h2 className="py-3 text-2xl font-semibold">
-              {" "}
-              The Perfect Date Night{" "}
+              Show up and she’ll think you're a pro.
             </h2>
             <p className="text-base sm:w-[80%]">
-              Roses in Rhapsody is here to make your date, anniversary, or
-              honeymoon a special one. With our different tiers we fit into
-              every budget while not skimping on the quality. <br /> <br />{" "}
-              You’ll get our signature roses and lavender bouquet with our
-              handmade tea sure to get you in the mood as well as an aphrodisiac
-              oil from Oya’s Marketplace with every order. We pride ourselves
-              with partnering with the local community to give the freshest
-              flowers, hand picked macaroons, and personalized poetry for that
-              special someone. <br /> <br /> We look forward to giving your
-              intimate moment a distinct and loving touch that only Roses in
-              Rhapsody can provide.
+              Roses in Rhapsody is here to make your romance with your
+              significant other simple. After your free 30 minute consultation,
+              let Roses in Rhapsody take care of the rest. All you’re required
+              to do is show up! Your significant other will love the intricate
+              details that are detailed in our questionnaire to make your role
+              as easy as possible. And what’s even better is that you’ll get all
+              the credit. Contact us and make date night easy!
+            </p>
+            <h2 className="mt-8 py-3 text-xl font-semibold">Payment</h2>
+            <p className="text-base sm:w-[80%]">
+              Don’t have all the money upfront but want a special night? No
+              problem, we work with any budget, just ask us about a payment
+              plan.
             </p>
           </div>
         </div>
         {/*about me*/}
         <div className=" mb-10 flex flex-col  items-center rounded-md bg-offBlack p-5 sm:ml-[-12px] sm:max-w-[80%]  sm:rounded-2xl">
           <h2 className="py-3 text-center text-2xl font-semibold text-offWhite">
-            My Mission
+            Destinee Schriner
           </h2>
           <Image
             className="my-4  max-w-[200px] rounded-md object-contain md:max-w-[400px] "
@@ -96,8 +125,11 @@ const Home: NextPage = () => {
             src={Destinee}
           />
           <p className="p-5 text-center text-base text-offWhite sm:max-w-[60%]">
-            Bring the romance and the roses to your exceptional moment with your
-            significant other.
+            With being married for over 12 years, my husband and I have looked
+            everywhere for unique affordable date nights and anniversaries. And
+            with my skill with project and finance coordination, as well as
+            being a writer, Roses in Rhapsody was born. I can’t wait to make
+            your night easy, affordable, and special.
           </p>
           {/* <CTAButton
             text="Learn More"
@@ -112,7 +144,7 @@ const Home: NextPage = () => {
           Package Tiers
         </h2>
         <div className="flex h-full flex-col items-stretch justify-start sm:flex-row ">
-          <div className=" relative mb-5 flex  grow flex-col items-center  rounded-md bg-offWhite pt-8 sm:mr-10">
+          <div className=" relative my-5 flex  grow flex-col items-center  rounded-md bg-offWhite pt-8 sm:mr-10">
             <div>
               <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
                 Anniversary — $600
@@ -151,7 +183,7 @@ const Home: NextPage = () => {
               />
             </div> */}
           </div>
-          <div className=" relative mb-5 flex grow flex-col  items-center justify-between rounded-md bg-offWhite pt-8">
+          <div className=" relative my-5 flex grow flex-col  items-center justify-between rounded-md bg-offWhite pt-8">
             <div>
               <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
                 Honeymoon — $1080
@@ -194,8 +226,65 @@ const Home: NextPage = () => {
             </div> */}
           </div>
         </div>
+        <div className=" relative my-5 flex grow flex-col  items-center justify-between rounded-md bg-offWhite pt-8">
+          <div>
+            <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
+              Custom — starting at $125 an hour
+            </h2>
+          </div>
+          <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
+            Please be at the location or have someone that knows that I am
+            coming. <br />
+            <br />I will set up your perfect night with your significant other.
+            I’m also available to travel anywhere on the west coast. <br />
+            <br /> Let’s do a consultation.
+          </p>
+          {/* <div className=" absolute right-2 bottom-5">
+              <CTAButton
+                text="Book Now"
+                link="services"
+                color="offBlack"
+                styles={{
+                  padding: ".75rem",
+                  alignSelf: "flex-end",
+                  marginTop: "20px",
+                }}
+              />
+            </div> */}
+        </div>
       </div>
-
+      <div className="w-[80%]">
+        <h2 className="py-3 text-2xl font-semibold text-offWhite">Gallery</h2>
+        <ImageCarousel
+          images={[
+            I1,
+            I2,
+            I3,
+            I4,
+            I6,
+            I7,
+            I8,
+            I9,
+            I11,
+            I12,
+            I13,
+            I14,
+            I15,
+            I16,
+            I17,
+            I18,
+            I19,
+            I20,
+            I21,
+            I22,
+            I23,
+            I24,
+            I25,
+            I26,
+            I27,
+          ]}
+        />
+      </div>
       {/* contact form */}
       <div className="flex w-[80%] flex-col">
         <h2 className=" self-start py-3 text-2xl font-semibold text-offWhite">
@@ -270,6 +359,7 @@ const Home: NextPage = () => {
                 >
                   <option>Anniversary</option>
                   <option>Honeymoon</option>
+                  <option>Custom</option>
                   <option>Other</option>
                 </select>
               </div>
