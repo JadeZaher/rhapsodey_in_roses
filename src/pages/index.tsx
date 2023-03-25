@@ -95,16 +95,17 @@ const Home: NextPage = () => {
         <div className="mb-10 flex items-center  justify-center rounded-md bg-offWhite sm:max-w-[80%] sm:rounded-2xl sm:rounded-tr-none sm:rounded-br-none">
           <div className="max-w-[80%] p-5">
             <h2 className="py-3 text-2xl font-semibold">
-              Show up and she’ll think you're a pro.
+              Show up and she&apos;ll think you&apos;re a pro.
             </h2>
             <p className="text-base sm:w-[80%]">
               Roses in Rhapsody is here to make your romance with your
               significant other simple. After your free 30 minute consultation,
-              let Roses in Rhapsody take care of the rest. All you’re required
-              to do is show up! Your significant other will love the intricate
-              details that are detailed in our questionnaire to make your role
-              as easy as possible. And what’s even better is that you’ll get all
-              the credit. Contact us and make date night easy!
+              let Roses in Rhapsody take care of the rest. All you&apos;re
+              required to do is show up! Your significant other will love the
+              intricate details that are detailed in our questionnaire to make
+              your role as easy as possible. And what&apos;s even better is that
+              you&apos;ll get all the credit. Contact us and make date night
+              easy!
             </p>
             <h2 className="mt-8 py-3 text-xl font-semibold">Payment</h2>
             <p className="text-base sm:w-[80%]">
