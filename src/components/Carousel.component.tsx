@@ -24,7 +24,7 @@ const ImageCarousel = ({ images }: ImageStream) => {
               src={image}
               alt={`Image ${index}`}
               onClick={() => handleClick(index)}
-              className={` h-[800px] cursor-pointer rounded-md object-cover ${
+              className={` h-[70vh] cursor-pointer rounded-md object-cover ${
                 activeIndex === index ? " border-l-offBlack" : ""
               }`}
             />
