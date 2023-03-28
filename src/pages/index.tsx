@@ -144,7 +144,41 @@ const Home: NextPage = () => {
         <h2 className="py-3 text-2xl font-semibold text-offWhite">
           Package Tiers
         </h2>
-        <div className="flex h-full flex-col items-stretch justify-start sm:flex-row ">
+        <div className="relative flex h-full flex-col items-stretch justify-center sm:flex-row">
+          <div className=" relative my-5 flex  grow flex-col items-stretch justify-evenly  rounded-md border-4 border-offBlack bg-offWhite pt-8 sm:mr-10">
+            <div>
+              <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
+                Romance Profile — $25
+              </h2>
+              <p className="text-center">
+                <strong className="py-2">This package comes with:</strong>
+              </p>
+              <p className=" px-[5%] pb-20 text-center text-base leading-10">
+                <br />
+                Reminders for All Important Dates <br />
+                Personalized Romance Fact Sheet <br />
+                A Date Timeline <br />
+                Gift Ideas <br />
+                Date Ideas <br />
+              </p>
+
+              <p className="mb-20 text-center">
+                <strong className=" py-2">Most Popular</strong>
+              </p>
+            </div>
+            {/* <div className=" absolute right-2 bottom-5">
+              <CTAButton
+                text="Book Now"
+                link="services"
+                color="offBlack"
+                styles={{
+                  padding: ".75rem",
+                  alignSelf: "flex-end",
+                  marginTop: "20px",
+                }}
+              />
+            </div> */}
+          </div>
           <div className=" relative my-5 flex  grow flex-col items-center  rounded-md bg-offWhite pt-8 sm:mr-10">
             <div>
               <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
@@ -254,7 +288,7 @@ const Home: NextPage = () => {
             </div> */}
         </div>
       </div>
-      <div className="w-[80%]">
+      <div className=" w-[80%]">
         <h2 className="py-3 text-2xl font-semibold text-offWhite">Gallery</h2>
         <ImageCarousel
           images={[
