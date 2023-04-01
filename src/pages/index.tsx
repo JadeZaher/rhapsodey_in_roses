@@ -6,6 +6,8 @@ import Link from "next/link";
 import Partner1 from "../assets/OyasMarketLogo.png";
 import Partner2 from "../assets/RubyBloomLogo.png";
 import Partner3 from "../assets/VintiquesLogo.png";
+import Partner4 from "../assets/HolidayInnNampaLogo.png";
+import Partner5 from "../assets/ResidenceInnBoiseLogo.png";
 import Destinee from "../assets/destinee-image.jpg";
 import I1 from "../assets/gallery/1.jpg";
 import I2 from "../assets/gallery/2.jpg";
@@ -447,6 +449,24 @@ const Home: NextPage = () => {
                 className="m-4 max-h-[200px] max-w-[90%] rounded-md object-cover"
                 alt="Vintiquesdecor"
                 src={Partner3}
+              />
+            </Link>
+            <Link
+              href={`https://www.holidayinn.com/hotels/us/en/nampa/boimb/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=03717490&icdv=03717490&gclid=CjwKCAjwrJ-hBhB7EiwAuyBVXf2k2wqvnkqQ13xZUvS9e-9f7dF0eoMhBVf3b55j53Q8g64I6Bs3kRoC-84QAvD_BwE`}
+            >
+              <Image
+                className="m-4 max-h-[200px] max-w-[90%] rounded-md object-cover"
+                alt="Holiday Inn Nampa"
+                src={Partner4}
+              />
+            </Link>
+            <Link
+              href={`https://www.marriott.com/en-us/hotels/boird-residence-inn-boise-downtown-city-center/overview/`}
+            >
+              <Image
+                className="m-4 max-h-[200px] max-w-[90%] rounded-md object-cover"
+                alt="Residence Inn Boise Downtown/City Center"
+                src={Partner5}
               />
             </Link>
           </div>
