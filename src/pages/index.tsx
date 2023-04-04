@@ -146,29 +146,28 @@ const Home: NextPage = () => {
         <h2 className="py-3 text-2xl font-semibold text-offWhite">
           Package Tiers
         </h2>
-        <div className="relative flex h-full flex-col items-stretch justify-center sm:flex-row">
-          <div className=" relative my-5 flex  grow flex-col items-stretch justify-evenly  rounded-md border-4 border-offBlack bg-offWhite pt-8 sm:mr-10">
-            <div>
-              <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
-                Romance Profile — $25
-              </h2>
-              <p className="text-center">
-                <strong className="py-2">This package comes with:</strong>
-              </p>
-              <p className=" px-[5%] pb-20 text-center text-base leading-10">
-                <br />
-                Reminders for All Important Dates <br />
-                Personalized Romance Fact Sheet <br />
-                A Date Timeline <br />
-                Gift Ideas <br />
-                Date Ideas <br />
-              </p>
+        <div className=" relative my-5 flex  grow flex-col items-stretch justify-evenly  rounded-md border-4 border-offBlack bg-offWhite pt-8 sm:mr-10">
+          <div>
+            <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
+              Romance Profile — $25
+            </h2>
+            <p className="text-center">
+              <strong className="py-2">This package comes with:</strong>
+            </p>
+            <p className=" px-[5%] pb-20 text-center text-base leading-10">
+              <br />
+              Reminders for All Important Dates <br />
+              Personalized Romance Fact Sheet <br />
+              A Date Timeline <br />
+              Gift Ideas <br />
+              Date Ideas <br />
+            </p>
 
-              <p className="mb-20 text-center">
-                <strong className=" py-2">Most Popular</strong>
-              </p>
-            </div>
-            {/* <div className=" absolute right-2 bottom-5">
+            <p className="mb-20 text-center">
+              <strong className=" py-2">Most Popular</strong>
+            </p>
+          </div>
+          {/* <div className=" absolute right-2 bottom-5">
               <CTAButton
                 text="Book Now"
                 link="services"
@@ -180,8 +179,9 @@ const Home: NextPage = () => {
                 }}
               />
             </div> */}
-          </div>
-          <div className=" relative my-5 flex  grow flex-col items-center  rounded-md bg-offWhite pt-8 sm:mr-10">
+        </div>
+        <div className="relative flex h-full flex-col items-stretch justify-center sm:flex-row">
+          <div className=" relative my-5 flex  grow flex-col items-center rounded-md bg-offWhite pt-8 sm:mr-10">
             <div>
               <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
                 Anniversary — $600
@@ -190,22 +190,25 @@ const Home: NextPage = () => {
                 <strong className="py-2">This package comes with:</strong>
               </p>
             </div>
-            <p className=" px-[5%] pb-20 text-center text-base leading-10">
+            <p className=" px-[5%] text-center text-base leading-10 sm:mt-[10%]">
               <br />
-              Local $50 Restaurant Gift Card <br />
-              Aphrodisiac Massage Oil <br />
-              Women’s Arousal Cream <br />
-              Artisinal Herbal Tea Blend <br />
-              Champagne Glasses <br />
-              Champagne <br />
-              Roses and Lavender <br />
-              Rose Petals <br />
-              Location Setup <br />
-              Custom Poetry <br />
-              Unique Basket <br />
-              Craft Honey <br />
-              Craft Soap <br />
-              Candle <br />
+              Our team takes pride in creating unforgettable experiences for
+              couples like you. <br /> <br />
+              To ensure that your anniversary is truly special, we will provide
+              you with a questionnaire that will help us personalize every
+              aspect of your celebration. From your favorite movies to your
+              preferred snacks and desserts, we will design every detail to make
+              your celebration seamless and unique to you as a couple. <br />{" "}
+              <br />
+              Included in the package are custom decor and set-up, up to $350 in
+              value, that will transform your space into a romantic haven. We
+              also provide a $50 gift card to the restaurant of your choice, so
+              you can enjoy a delicious meal with your loved one. <br />
+              <br />
+              As always, we are available to accommodate any additional requests
+              and make your anniversary even more special. <br /> <br />
+              We look forward to creating a memorable and romantic experience
+              that you will cherish forever.
             </p>
             {/* <div className=" absolute right-2 bottom-5">
               <CTAButton
@@ -231,23 +234,32 @@ const Home: NextPage = () => {
             </div>
             <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
               <br />
-              Local Restaurant $100 Gift Card <br />
-              Crystals Wrapped As A Gift <br />
-              Aphrodisiac Massage Oil <br />
-              Artisinal Herbal Tea Blend <br />
-              Women’s Arousal Cream <br />
-              Champagne Glasses <br />
-              Champagne <br />
-              Roses and Lavender <br />
-              Rose Petals <br />
-              Location Setup <br />
-              Custom Poetry <br />
-              Wine Charms <br />
-              Macaroons <br />
-              Craft Honey <br />
-              Craft Soap <br />
-              Unique Basket <br />
-              Candle <br />
+              We believe that the key to creating a perfect experience is
+              getting to know your preferences. That's why we will work closely
+              with you to tailor the package to your likes and dislikes. Our
+              decor options start at $250 and go up to $500, ensuring that every
+              detail is exactly to your specifications. <br /> <br />
+              As part of the package, we will create a custom romance profile
+              for you, providing ideas for future dates that are personalized to
+              your preferences. Additionally, we will provide a $100 gift card
+              to the hotel restaurant, as well as a custom dessert of your
+              choosing to be sent up to your room. <br />
+              <br />
+              We understand the importance of creating a memorable experience
+              for your special day, which is why we take care of everything from
+              the flowers to the decor. We will ensure that the decor is exactly
+              as you imagined. <br />
+              <br />
+              As a token of our appreciation, we will provide champagne glasses
+              and a basket of personalized goodies for you to enjoy. We are also
+              available on call after your room is set up to address any
+              additional requests and ensure that your honeymoon is everything
+              you dreamed of. <br />
+              <br />
+              Thank you again for choosing Roses in Rhapsody for your honeymoon
+              package. We are dedicated to creating an unforgettable experience
+              for you and your partner. <br />
+              <br />
             </p>
             {/* <div className=" absolute right-2 bottom-5">
               <CTAButton
@@ -266,15 +278,34 @@ const Home: NextPage = () => {
         <div className=" relative my-5 flex grow flex-col  items-center justify-between rounded-md bg-offWhite pt-8">
           <div>
             <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
-              Custom — starting at $125 an hour
+              Custom — starting at $50 an hour + Materials
             </h2>
           </div>
           <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
+            Are you ready to go all out and create a truly spectacular
+            experience with no limits on decor? We've got you covered. <br />{" "}
+            <br />
+            With our custom package, the sky's the limit on materials and we
+            will customize every aspect to make your special day truly unique
+            and unforgettable. We will work closely with you to bring your
+            vision to life, whether you want multiple rooms decorated or
+            something beyond the maximum budget. <br /> <br />
+            In addition to everything included in the honeymoon package, this
+            custom package is designed for those who want to create an extra
+            special experience. We will be with you every step of the way,
+            answering any questions and addressing any concerns you may have.{" "}
+            <br /> <br />
+            Our team is dedicated to serving you and making your day truly
+            unforgettable. So don't hesitate to reach out to us, we are always
+            here to help. <br /> <br />
+            Thank you for considering us for your special day, and we look
+            forward to creating an experience that exceeds your expectations.{" "}
+            <br /> <br />
             Please be at the location or have someone that knows that I am
             coming. <br />
-            <br />I will set up your perfect night with your significant other.
-            I’m also available to travel anywhere on the west coast. <br />
-            <br /> Let’s do a consultation.
+            I will set up your perfect night with your significant other. <br />
+            I’m also available to travel anywhere on the west coast. Let’s do a
+            consultation. <br />
           </p>
           {/* <div className=" absolute right-2 bottom-5">
               <CTAButton
@@ -394,6 +425,7 @@ const Home: NextPage = () => {
                   required
                   defaultValue="Select Your Option"
                 >
+                  <option>Romance Profile</option>
                   <option>Anniversary</option>
                   <option>Honeymoon</option>
                   <option>Custom</option>
