@@ -235,10 +235,10 @@ const Home: NextPage = () => {
             <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
               <br />
               We believe that the key to creating a perfect experience is
-              getting to know your preferences. That's why we will work closely
-              with you to tailor the package to your likes and dislikes. Our
-              decor options start at $250 and go up to $500, ensuring that every
-              detail is exactly to your specifications. <br /> <br />
+              getting to know your preferences. That&apos;s why we will work
+              closely with you to tailor the package to your likes and dislikes.
+              Our decor options start at $250 and go up to $500, ensuring that
+              every detail is exactly to your specifications. <br /> <br />
               As part of the package, we will create a custom romance profile
               for you, providing ideas for future dates that are personalized to
               your preferences. Additionally, we will provide a $100 gift card
@@ -280,17 +280,16 @@ const Home: NextPage = () => {
             <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
               Custom — starting at $50 an hour <br />{" "}
               <span className="text-base font-normal opacity-70">
-                {" "}
-                + Materials{" "}
+                + Materials
               </span>
             </h2>
           </div>
           <p className="m-auto w-[80%] px-[5%] pb-[100px] text-center text-base leading-10">
             Are you ready to go all out and create a truly spectacular
-            experience with no limits on decor? We've got you covered. <br />{" "}
-            <br />
-            With our custom package, the sky's the limit on materials and we
-            will customize every aspect to make your special day truly unique
+            experience with no limits on decor? We&apos;ve got you covered.{" "}
+            <br /> <br />
+            With our custom package, the sky&apos;s the limit on materials and
+            we will customize every aspect to make your special day truly unique
             and unforgettable. We will work closely with you to bring your
             vision to life, whether you want multiple rooms decorated or
             something beyond the maximum budget. <br /> <br />
@@ -300,8 +299,8 @@ const Home: NextPage = () => {
             answering any questions and addressing any concerns you may have.{" "}
             <br /> <br />
             Our team is dedicated to serving you and making your day truly
-            unforgettable. So don't hesitate to reach out to us, we are always
-            here to help. <br /> <br />
+            unforgettable. So don&apos;t hesitate to reach out to us, we are
+            always here to help. <br /> <br />
             Thank you for considering us for your special day, and we look
             forward to creating an experience that exceeds your expectations.{" "}
             <br /> <br />
