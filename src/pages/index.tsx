@@ -146,7 +146,7 @@ const Home: NextPage = () => {
         <h2 className="py-3 text-2xl font-semibold text-offWhite">
           Package Tiers
         </h2>
-        <div className=" relative my-5 flex  grow flex-col items-stretch justify-evenly  rounded-md border-4 border-offBlack bg-offWhite pt-8 sm:mr-10">
+        <div className=" relative my-5 flex  grow flex-col items-stretch justify-evenly  rounded-md border-4 border-offBlack bg-offWhite pt-8 sm:mr-10 sm:w-[80vw]">
           <div>
             <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
               Romance Profile — $25
@@ -180,7 +180,7 @@ const Home: NextPage = () => {
               />
             </div> */}
         </div>
-        <div className="relative flex h-full flex-col items-stretch justify-center sm:flex-row">
+        <div className="relative flex h-full flex-col items-stretch justify-center sm:w-[80vw] sm:flex-row">
           <div className=" relative my-5 flex  grow flex-col items-center rounded-md bg-offWhite pt-8 sm:mr-10">
             <div>
               <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
@@ -275,13 +275,17 @@ const Home: NextPage = () => {
             </div> */}
           </div>
         </div>
-        <div className=" relative my-5 flex grow flex-col  items-center justify-between rounded-md bg-offWhite pt-8">
+        <div className=" relative my-5 flex grow flex-col items-center  justify-between rounded-md bg-offWhite pt-8 sm:w-[80vw]">
           <div>
             <h2 className="p-3 text-center text-xl font-semibold text-offBlack">
-              Custom — starting at $50 an hour + Materials
+              Custom — starting at $50 an hour <br />{" "}
+              <span className="text-base font-normal opacity-70">
+                {" "}
+                + Materials{" "}
+              </span>
             </h2>
           </div>
-          <p className="m-auto px-[5%] pb-[100px] text-center text-base leading-10">
+          <p className="m-auto w-[80%] px-[5%] pb-[100px] text-center text-base leading-10">
             Are you ready to go all out and create a truly spectacular
             experience with no limits on decor? We've got you covered. <br />{" "}
             <br />
@@ -302,7 +306,7 @@ const Home: NextPage = () => {
             forward to creating an experience that exceeds your expectations.{" "}
             <br /> <br />
             Please be at the location or have someone that knows that I am
-            coming. <br />
+            coming. <br /> <br />
             I will set up your perfect night with your significant other. <br />
             I’m also available to travel anywhere on the west coast. Let’s do a
             consultation. <br />
